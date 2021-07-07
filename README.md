@@ -29,3 +29,10 @@ If top , left , right , and bottom properties have the same value, you can just 
 ## Vibrate your phone
 
 ```window.navigator.vibrate(500);```
+
+## Disable pull to refresh
+```
+body{
+ overscroll-behavior-y: contain;
+}
+```
