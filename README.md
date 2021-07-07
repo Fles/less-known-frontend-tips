@@ -25,3 +25,7 @@ If top , left , right , and bottom properties have the same value, you can just 
 
 ## Detect internet speed
 ```navigator.connection.downlink;```
+
+## Vibrate your phone
+
+```window.navigator.vibrate(500);```
