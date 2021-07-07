@@ -36,3 +36,16 @@ body{
  overscroll-behavior-y: contain;
 }
 ```
+
+## Prevent the user from pasting text
+```
+<input type="text"></input><script>//selecting the input.
+  const input = document.querySelector('input');
+  
+//prevent the user to paste text by using the paste eventListener.
+  input.addEventListener("paste", function(e){
+    e.preventDefault()
+  })
+  
+</script>
+```
