@@ -9,7 +9,7 @@ By using the attribute hidden , you can easily hide an HTML element natively. As
 If top , left , right , and bottom properties have the same value, you can just use the property inset instead and your code will look much cleaner.
 
 ```
-div.dontDoThis{
+.dontDoThis{
   position: absolute;
   top: 0;
   left: 0;
@@ -17,7 +17,7 @@ div.dontDoThis{
   right: 0;
 }
 
-div.doThis{
+.doLikeThis{
   position: absolute;
   inset: 0;
 }
