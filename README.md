@@ -22,3 +22,6 @@ If top , left , right , and bottom properties have the same value, you can just 
   inset: 0;
 }
 ```
+
+## Detect internet speed
+```navigator.connection.downlink;```
